@@ -1,0 +1,121 @@
+.landing-page {
+  margin: 0%;
+  background-image: url("../images/field-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-image: 100%; */
+}
+
+body {
+  background: linear-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+
+.card {
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  /* padding-left: 10px !important; */
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 1.5rem 0 !important;
+  justify-content: space-between !important;
+  color: #e5e5e5;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 0.4rem 1rem;
+}
+
+.container-fluid.row {
+  padding-top: 200px !important;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  height: 200px;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.row {
+  justify-content: space-between;
+  padding-top: 20px;
+  display: flex;
+  padding-bottom: 30px;
+  padding: 100px;
+}
+
+.top {
+  background: rgba(0, 0, 0, 0.034);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  color: whitesmoke;
+  height: 14vh;
+  position: sticky;
+  /* width: 100%; */
+  /* border-radius: 10px; */
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.farm {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.industry {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  font-weight: 1000;
+}
+.logout-btn {
+  background-color: aliceblue;
+}
+.mr-auto {
+  float: right;
+}
+.container-footer {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-top: 5vh;
+}
+
+.services {
+  margin-top: 100px;
+}

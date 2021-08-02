@@ -1,0 +1,36 @@
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.jumbotron {
+  background-color: lightseagreen;
+  color: #fff;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+  color: white;
+}
+
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.container-footer {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-top: 5vh;
+}
+
+.services {
+  margin-top: 100px;
+}
